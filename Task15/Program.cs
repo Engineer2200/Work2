@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿ int number = new Random().Next(1 , 8); 
+  Console.WriteLine($"Наше  число: {number}");
+
+  if (number>5)
+    {
+       Console.WriteLine($"Да");
+    }
+else
+    {
+        Console.WriteLine($"Нет");
+    }   
